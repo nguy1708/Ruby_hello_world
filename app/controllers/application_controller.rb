@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-    render html: "This shows that I know how to change routes and application controllers.\n\nGoodbye.."
+    render html: "This shows that I know how to change routes and application controllers."
   end
 end
